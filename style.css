@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Regular.ttf') format('truetype');
+    /* Adjust path and format accordingly */
+}
+
+body{
+    background-color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+   
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.options{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+}
+
+.options img{
+    width: 150px;
+}
+
+.options:hover{
+    background-color: yellow;
+}
